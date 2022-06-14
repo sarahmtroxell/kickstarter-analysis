@@ -33,7 +33,7 @@ The campaign goal, or overall amount of money that a funder wants to raise, is a
 ### Challenges and Difficulties Encountered
 One part of the assignment included creating an Excel table that counted the outcomes of projects based on their target funding goal. Categories of funding goal ranges were listed in rows, then I needed to use the COUNTIFS function to count each outcome with a goal between the category range. I felt this opened the results up to risk of manual error because I had to manually type in all 12 categories into the COUNTIFS statement. I overcame this challenge by instead using the Excel RIGHT and LEFT functions to directly reference and parse the upper and lower bound for each goal category. 
 
-![LEFT_RIGHT_fuctions](../main/resources/EXCEL_Left_Right.png)
+![LEFT_RIGHT_fuctions](../main/resources/Excel_LEFT_RIGHT.png)
 
 ## Results
 
