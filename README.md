@@ -4,7 +4,9 @@
 A fictional playwright named Louise is looking to raise over $10,000 to fund a play she wrote. She asked for advice on how campaigns work and what makes them successful. This project will analyze data from Kickstarter, a crowdfunding platform, to give Louise insight to trends of successful, failed, cancelled, and ongoing historical campaigns.
 
 ### Purpose
-The purpose of this Kickstarter Challenge was to use Excel techniques to analyze a medium sized data set and provide a data-driven recommendation. The main areas of focus were: 
+The purpose of this Kickstarter Challenge was to use Excel techniques to analyze a medium sized data set and provide a data-driven recommendation. Our course included self-paced learning, exercises, and in class instruction to teach various Excel features. 
+
+The main areas of focus were: 
 
 1. Pivot Tables
 2. Pivot Charts 
@@ -30,6 +32,8 @@ The campaign goal, or overall amount of money that a funder wants to raise, is a
 
 ### Challenges and Difficulties Encountered
 One part of the assignment included creating an Excel table that counted the outcomes of projects based on their target funding goal. Categories of funding goal ranges were listed in rows, then I needed to use the COUNTIFS function to count each outcome with a goal between the category range. I felt this opened the results up to risk of manual error because I had to manually type in all 12 categories into the COUNTIFS statement. I overcame this challenge by instead using the Excel RIGHT and LEFT functions to directly reference and parse the upper and lower bound for each goal category. 
+
+![LEFT_RIGHT_fuctions](../main/resources/EXCEL_Left_Right.png)
 
 ## Results
 
