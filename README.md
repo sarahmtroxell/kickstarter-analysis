@@ -52,6 +52,5 @@ One part of the assignment included creating an Excel table that counted the out
     - Campaigns could be successful for reasons beyond their target goal, launch date, and category. A main influencer could be if the campaign had external marketing (TV, radio, flyers) or was only spread by work of mouth and Kickstarter. Campaigns that had external marketing could look inflated in this data set. 
 
 - What are some other possible tables and/or graphs that we could create?
-    - Remove outliers
-    - Length of campaign
-    - Campaigns per year
+    - To remove outliers that may skew data, we could add a column to the main data sheet called "Outlier" and use statistical forumulas nested in an If statement to signify if the value is an outlier ("Yes") or not ("No"). Then a filter can be added to each PivotTable and PivotChart allowing us to filter out the "Yes" outlier values to see if the trends are impacted.
+    - I would also be interested to see what relationship the length of a campaign has with its success and its funding goal. We have the start and end date of the campaigns, so a a new column could be added to calculate the campaign length. Then a a Pivot Table could be added with the campaign length divided into segmented intervals as rows, the outcome types as columns, and the count of outcomes as values. Additonally, a Pivot Table could be inserted to visualize the data using a stacked line chart, graphing the length of campaign on the x-axis and count of outcome type on the y-axis.
