@@ -30,7 +30,7 @@ The campaign goal, or overall amount of money that a funder wants to raise, is a
 
 ![Outcomes vs Goals](../main/resources/Outcomes_vs_Goals.png)
 
-Based on the PivotChart, 
+Based on the PivotChart, campaigns with a funding goal of $45,000 or more have the highest failure percetage. This is shown on the orange line, where it spikes up to 100% failed campaigns between $45,000 to$49,999 and 83% for campaigns over $50,000. This aligns with my intital prediction that higher campaign goals would be harder to reach due to the large amount or size of donations needed. The campaign goal amount and the failure percentage did not always follow a positive linear relation though; for campaigns with a goal between $35,000 to $49,999 they were actually more likley to succeed than fail in our data set, which does not follow the trend of the other categoires. 
 
 ### Challenges and Difficulties Encountered
 The assignment included creating an Excel table that counted the outcomes of projects based on their target funding goal. Categories of funding goal amounts were listed in rows and the count of each outcome needed to be calculated for each goal category range and outcome type. I needed to use the COUNTIFS function to count each outcome with a goal between the category range. I felt this opened the results up to risk of manual error because I had to manually type in all 12 categories into the COUNTIFS statement and it would take a great deal of time to manually edit the code for each row. I overcame this challenge by instead using the Excel RIGHT and LEFT functions to directly reference and parse the upper and lower bound for each goal category, shown in the screenshot below. 
