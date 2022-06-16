@@ -4,7 +4,7 @@
 A fictional playwright named Louise is looking to raise over $10,000 to fund a play she wrote. She asked for advice on how campaigns work and what makes them successful. This project will analyze data from Kickstarter, a crowdfunding platform, to give Louise insight to trends of successful, failed, cancelled, and ongoing historical campaigns.
 
 ### Purpose
-The purpose of this Kickstarter Challenge was to use Excel techniques to analyze a medium sized data set and provide a data-driven recommendation. Our course included self-paced learning, exercises, and in class instruction to teach various Excel features. 
+The purpose of this Kickstarter Challenge was to use Excel techniques to analyze a medium sized data set and provide data-driven advice to help her campaign succeed. Our course included self-paced learning, exercises, and in class instruction to master various Excel features.
 
 The main areas of focus were: 
 
@@ -26,12 +26,14 @@ Campaigns beginning in December were the only month where more campaigns failed 
 When filtered to Louise's category of theater, successful campaigns significantly spike in May, June and July. The amount of failed campaigns stays around its typical value, but the spike in successful campaigns makes the proportion of successful campaigns much higher. Therefore, we can conclude that the best time for Louise to launch her campaign is between May through June. 
 
 ### Analysis of Outcomes Based on Goals
-The campaign goal, or overall amount of money that a funder wants to raise, is also a key characteristic of why a campaign may fail or succeed. If a campaign is seeking an extremely low amount of money, one may predict it will likely be successful. To test this theory and uncover additional insight, I created an Excel table with ____. I built a PivotChart to display the _______. 
+The campaign goal, or overall amount of money that a funder wants to raise, is also a key characteristic of why a campaign may fail or succeed. If a campaign is seeking an extremely low amount of money, one may predict it will likely be successful. To test this theory and uncover additional insight, I created an Excel table to display the outcomes based on total campaign goal. The rows broke the campaign goals into categories in increments of $5,000 and the colums had the total number of each outcome type and corresponding percetage of successful, failed, or cancelled campaigns. I used a COUNTIF function in Excel to populate the total number of each campaign type and the SUM function to calcuate the total number of projectes for each goal category. Using both of these calculated metrics, I found the percentage of successful, failed, and cancelled campaigns in each cateogry by dividing the count of each outcome type by the total campaigns for each row.  I built a PivotChart to display the percentages in a stacked line chart. Each outcome type was given its own line on the graph to display the outcome percentage by goal amount. 
 
 ![Outcomes vs Goals](../main/resources/Outcomes_vs_Goals.png)
 
+Based on the PivotChart, 
+
 ### Challenges and Difficulties Encountered
-One part of the assignment included creating an Excel table that counted the outcomes of projects based on their target funding goal. Categories of funding goal ranges were listed in rows, then I needed to use the COUNTIFS function to count each outcome with a goal between the category range. I felt this opened the results up to risk of manual error because I had to manually type in all 12 categories into the COUNTIFS statement. I overcame this challenge by instead using the Excel RIGHT and LEFT functions to directly reference and parse the upper and lower bound for each goal category. 
+The assignment included creating an Excel table that counted the outcomes of projects based on their target funding goal. Categories of funding goal amounts were listed in rows and the count of each outcome needed to be calculated for each goal category range and outcome type. I needed to use the COUNTIFS function to count each outcome with a goal between the category range. I felt this opened the results up to risk of manual error because I had to manually type in all 12 categories into the COUNTIFS statement and it would take a great deal of time to manually edit the code for each row. I overcame this challenge by instead using the Excel RIGHT and LEFT functions to directly reference and parse the upper and lower bound for each goal category, shown in the screenshot below. 
 
 ![LEFT_RIGHT_fuctions](../main/resources/Excel_LEFT_RIGHT.png)
 
